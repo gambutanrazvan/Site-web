@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:lightseagreen;
+    min-height: 8vh;
+    font-family: 'Poppins',sans-serif;
+
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    margin: 0;
+    background:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.container{
+    width: 980px;
+    display: flex;
+    margin:55px auto;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    align-items: flex-start;
+    flex-basis: 33%;
+  }
+  img{
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  h3{
+    margin:15px 0px;
+  }
+  .btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border:solid 1px black;
+    color:white;
+    border-radius: 5px;
+    background-color:lightseagreen;
+    text-align: none;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  .btn:hover, .btn:focus{
+    background-color: mediumseagreen;
+    border:1px solid black;
+  }
+  .item p{
+    margin-bottom: auto;
+  }
+  div.item{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+  }
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links a{
+    color: rgb(225,225,225);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.nav-links li:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: lightseagreen;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+    }
+}
+
+div.transbox {
+    margin-right: 280px;
+    margin-left: 280px;
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}

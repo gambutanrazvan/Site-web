@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script defer src="form.js"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Logo.PNG" height="45" width="75">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Cab1.html">Eagle Peak</a></li>
+            <li><a href="Cab2.html">Wander Inn</a></li>
+            <li><a href="Cab3.html">Seas the day</a></li>
+            <li><a href="Form.html">Form</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h2>Send us a feedback!</h2>
+    <br>
+    <br>
+    <div id="error"></div>
+    <br>
+   <form id="form" action="insert.php" method="POST">
+       <div>
+           <label for="name">Name:  </label>
+           <input id="name" type="text" name="name">
+       </div>
+       <br>
+       <div>
+            <label for="mesaj">Feedback:  </label>
+            <input id="mesaj" type="text" name="mesaj">
+       </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit"></td>
+        </div>
+
+   </form>
+</body>
+</html>
